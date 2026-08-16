@@ -17,12 +17,11 @@
     margin-bottom: 32px;
 }
 
-.role-app-title {
-    font-size: 24px;
-    font-weight: 800;
-    color: #fff;
-    margin: 0 0 4px;
-    letter-spacing: -0.5px;
+.role-logo {
+    height: 48px;
+    width: auto;
+    display: block;
+    margin: 0 auto 8px;
 }
 
 .role-app-subtitle {

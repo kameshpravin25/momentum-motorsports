@@ -5,7 +5,7 @@ export default function RoleSelect({ onSelect }) {
         <div className="role-page">
             <div className="role-container">
                 <div className="role-header">
-                    <h1 className="role-app-title">Momentum Motorsports</h1>
+                    <img src="/logo.jpg" alt="Momentum Motorsports" className="role-logo" />
                     <p className="role-app-subtitle">Inventory Management System</p>
                 </div>
                 <p className="role-prompt">Select your role to continue</p>

@@ -6,6 +6,7 @@
   top: 0;
   z-index: 100;
 }
+
 .header-content {
   display: flex;
   justify-content: space-between;
@@ -13,26 +14,23 @@
   max-width: 480px;
   margin: 0 auto;
 }
+
 .header-brand {
   flex: 1;
 }
-.header-title {
-  font-size: 18px;
-  font-weight: 700;
-  margin: 0;
-  letter-spacing: -0.3px;
+
+.header-logo {
+  height: 36px;
+  width: auto;
+  display: block;
 }
-.header-subtitle {
-  font-size: 11px;
-  margin: 2px 0 0;
-  opacity: 0.7;
-  font-weight: 400;
-}
+
 .header-actions {
   display: flex;
   align-items: center;
   gap: 8px;
 }
+
 .role-badge {
   font-size: 10px;
   font-weight: 600;
@@ -42,6 +40,7 @@
   border-radius: 20px;
   letter-spacing: 0.5px;
 }
+
 .btn-logout {
   background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -53,6 +52,7 @@
   font-weight: 500;
   transition: background 0.2s;
 }
+
 .btn-logout:hover {
   background: rgba(255, 255, 255, 0.1);
 }
