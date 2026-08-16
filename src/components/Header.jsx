@@ -1,6 +1,7 @@
 import './Header.css';
 
 export default function Header({ role, onLogout }) {
+    const displayRole = role === 'Manager' ? 'Admin' : 'Inventory';
     return (
         <header className="app-header">
             <div className="header-content">
@@ -8,7 +9,7 @@ export default function Header({ role, onLogout }) {
                     <img src="/logo.jpg" alt="Momentum Motorsports" className="header-logo" />
                 </div>
                 <div className="header-actions">
-                    <span className="role-badge">{role}</span>
+                    <span className="role-badge">{displayRole}</span>
                     <button className="btn-logout" onClick={onLogout}>Switch Role</button>
                 </div>
             </div>

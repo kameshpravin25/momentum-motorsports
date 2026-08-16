@@ -21,7 +21,7 @@ export default function ManagerLogin({ onSuccess, onBack }) {
     return (
         <div className="login-page">
             <div className="login-container">
-                <h1 className="login-title">Manager Login</h1>
+                <h1 className="login-title">Admin Login</h1>
                 <p className="login-subtitle">Enter your credentials to access the dashboard</p>
                 <form onSubmit={handleSubmit} className="login-form">
                     <label className="form-field">
